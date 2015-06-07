@@ -40,7 +40,7 @@ Note: If you have chefdk 0.6.0 you may need to install a newer `chef-provisionin
 This will create a two node rancher cluster utilizing the vagrant module for chef provisioning:
 
 ```
-$ rake vendor_cookbooks
+$ rake berks
 $ rake server agent
 $ curl localhost:8080
 ```
@@ -54,6 +54,12 @@ vagrant@agent:~$ sudo docker ps
 CONTAINER ID        IMAGE                  COMMAND             CREATED             STATUS              PORTS               NAMES
 40ce0296df02        rancher/agent:v0.7.9   "/run.sh run"       4 minutes ago       Up 4 minutes                            rancher-agent
 
+```
+
+to cleanup the VMs run:
+
+```
+$ rake destroy_machines
 ```
 
 # Development

@@ -15,6 +15,9 @@ default['rancher']['server']['host'] = nil
 # name of node running server.  This is used by search if 'host' is not set.
 default['rancher']['server']['node_name'] = 'server'
 
+# run rancher server with a data volume
+default['rancher']['server']['volume_container'] = true
+
 # Port to expose on host running the rancher server.
 # in the form of 'port' or 'ip:port'
 default['rancher']['server']['port'] = '8080'

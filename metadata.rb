@@ -4,7 +4,7 @@ maintainer_email 'username.taken@gmail.com'
 license 'Apache 2.0'
 description 'Installs/Configures rancher'
 long_description 'Installs/Configures rancher'
-version '0.1.0'
+version '0.1.1'
 
 depends 'docker', '~> 0.37.0'
 depends 'chef-sugar', '~> 3.1.0'

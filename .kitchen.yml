@@ -17,6 +17,6 @@ suites:
       - recipe[rancher::server]
       - recipe[rancher::agent]
     attributes:
-#      rancher:
-#        server:
-#          host: 10.0.2.15
+      rancher:
+        server:
+          host: 10.0.2.15

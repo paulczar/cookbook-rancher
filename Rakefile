@@ -13,7 +13,7 @@ end
 
 task :destroy_all do
   Rake::Task[:destroy_machines].invoke
-  run_command('rm -rf Gemfile.lock && rm -rf Berksfile.lock && rm -rf cookbooks/')
+  run_command('rm -rf Gemfile.lock && rm -rf Berksfile.lock && rm -rf .chef/cookbooks/')
 end
 
 desc "Destroy machines"
