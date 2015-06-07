@@ -1,0 +1,17 @@
+{
+  "name": "vagrant",
+  "description": "Environment for testing rancher cookbook with vagrant / chef provisioning",
+  "cookbook_versions": {
+  },
+  "json_class": "Chef::Environment",
+  "chef_type": "environment",
+  "default_attributes": {
+    "rancher": {
+      "server": {
+        "host": "172.16.0.100"
+      }
+    }
+  },
+  "override_attributes": {
+  }
+}
