@@ -55,3 +55,11 @@ CONTAINER ID        IMAGE                  COMMAND             CREATED          
 40ce0296df02        rancher/agent:v0.7.9   "/run.sh run"       4 minutes ago       Up 4 minutes                            rancher-agent
 
 ```
+
+# Development
+
+## Publish Cookbook to Supermarket
+
+```
+$ rake publish
+```

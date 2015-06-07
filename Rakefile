@@ -51,3 +51,5 @@ require 'rubocop/rake_task'
 desc 'Run RuboCop'
 RuboCop::RakeTask.new(:rubocop)
 
+require 'stove/rake_task'
+Stove::RakeTask.new
